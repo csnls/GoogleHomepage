@@ -80,6 +80,10 @@ img {
     cursor:text;
     display:flex;
     flex:1;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    color:white;
 }
 .searchIcon, .voiceIcon {
     fill:#9aa0a6;
@@ -111,6 +115,7 @@ img {
     display:flex;
     align-items:center;
     cursor:pointer;
+    border:1px solid transparent;
 }
 .searchButtonLeft:hover, .searchButtonRight:hover {
     border:1px solid #5f6368;
